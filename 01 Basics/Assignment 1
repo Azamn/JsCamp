@@ -1,0 +1,47 @@
+1) Explain the use of JavaScript ( or What you can do using a JavaScript).
+-   Javascript language is used for both client-side and server-side, commonly used for creating interactive web pages and   add special effects on pages.
+
+-   Using javascript you build mobile application as well as web application.
+-   now a days javascript is very popular for creating interactive web pages.
+-   using javascript we develop games as well as vr application
+
+2) What is the difference between client-side and server-side?
+
+-   Client-side - Client-side means that the action's takes place on the user(client) side, it requires only browser for run the scripts. whatver you are saw on user computer like drop down, send some input and getting some values or output aa these things which are show on application is client side server.
+- client-side is used as fron-end.
+- client-side language HTML, CSS, Js
+
+-   server-side - Server-side language means that action's take place on the web-server, any logical calculation or mathemtical calculation all these things process on server side. eg - take birthdate from any user and calculate the age of that user these calculation process on server and then passed to the client.
+-   server-side is used as back-end.
+-   server-side language Java, php, python, js all these are popular in industry
+
+3) What is Nodejs?
+-   Nodejs is an open-source cross-platform javascript runtime envirnoment. It is popular for build almost any type of project.
+    it's run the v8javascript engine
+    nodejs is run on single thread with multiple set of asynchronus I/O primitive
+
+4) Explain Scope in JavaScript
+-   scope in javascript refer to the current context of code which determines the accessibility of variables
+-   the two types of scope 1. Local 2. global
+    1. Global variables - are those declared outside of the class or function.
+    -   you can access in whole code and reassigned also if you declare var to variables
+    2. Local valriables - are those declared inside of a block or function
+    -   you can acces within the block or function
+
+5) JavaScript is asynchronous or synchronous.
+-   Javascript is asynchronus because when code is running and some data are fetching from the database and it'takes time and wait from the database, freeing the rest of the code to run. when get back response from the database wait from current process and again complete that process and then again continue.
+
+6) JavaScript is Single-threaded or Multi-threaded.
+-   Javascript is single-threaded that can be non-blocking asynchronous
+
+7) Explain DOM in your own word.
+-   DOM is stands for Document Object Model. 
+-   It's how a web browser represents a web page internally.
+-   The DOM determines what content should be on a page and how each element of the content relates to the other elements. 
+
+let's discuss on DOM of every word
+D - Documents: Documents means is a web page where you can see all the stuff (Object)
+O - Object: "stuff" (object) on the web page are sometimes called elements and nodes. some example of objects you may run on web pages - content : the most obvious thing on web is content , these content include words, video, images and more.
+            structural elements: that's includes divs, container, sections you nit see these elemnts but you see how the content is organize in web page.
+            attributes : attributes like style of the font, size of the font, color of the font and many more.
+M- Model: A model is a representation of something, and it helps us understand how something is put together.

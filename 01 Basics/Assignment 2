@@ -1,0 +1,79 @@
+1) What is lexical structure?
+- Lexical structure means set of elementary rules that specifies how you write the program in that language.
+- it specifies what variable names look like, the delimiter characters for comments
+- example - javascript is Case sensitive, this means keywords, variables, function names, and other identifiers must always be typed with a consistent capitalization of letters. while keyword, for example, must be typed “while,” not “While” or “WHILE.” Similarly, online, Online, OnLine, and ONLINE are four distinct variable names.
+
+- Case sensitivity, spaces, and line breaks
+- Comments
+- Literals
+- Identifiers and reserved words
+- Unicode
+- Optional semicolons
+In lexical structure includes all these things how you comment the code for single line "//" for multiple lines "/* */"
+Literals represent values in JavaScript
+Identifier and resrved keywords are if, for, while, return
+
+2) What is Unicode?
+-   unicode is identifiers and string literals can be expressed in unicode, syntax is \uXXXX , where X denotes four hexadecimal digits. For example, the letter o is denoted as '\u006F' in Unicode.
+
+3) Explain all the keywords present in the JavaScript with examples.
+-   await	
+-   break	
+-   case	
+-   catch	
+-   class
+-   const	
+-   continue	
+-   debugger	
+-   default	
+-   delete
+-   do
+-   while
+-   if
+-   else	
+-   enum	
+-   export	
+-   extends
+-   false	
+-   finally	
+-   for	
+-   function	
+-   implements	
+-   import	
+-   in
+-   instanceof	
+-   interface
+-   let	
+-   new	
+-   null	
+-   package	
+-   private
+-   protected	
+-   public	
+-   return	
+-   super	
+-   switch
+-   static	
+-   this	
+-   throw	
+-   try	
+-   true
+-   typeof	
+-   var	
+-   void	
+-   with
+-   yield
+
+4) What are shorthand operators, explain with a suitable example?
+-   shorthand operators are:
+    x += y // for addition  
+    x -= y // for subtraction
+    x *= y // for multiplication
+    x /= y // for division
+    x %= y // for percentage
+
+Example :  Instead of using x = x + y, we can write x += y. 
+
+5) What is “use Strict” in JavaScript?
+-   "use strict" is introduced in ECMAScript 5, and used for eliminates some javaScript silent errors by changing them to throw errors.
+-   To start strict mode for an entire script, put the exact statement "use strict" or 'use strict'
